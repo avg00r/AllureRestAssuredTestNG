@@ -11,4 +11,4 @@ App is similar to [camel-example-restlet-jdbc](http://mvnrepository.com/artifact
 1. Install Allure with Scoop [installation instrictions](https://docs.qameta.io/allure/)
 scoop install allure
 2. Type "mvn test" to run tests. This command generates the allure results into .\allure-results\ folder
-3. Type "allure serve .\allure-results" command in project root directory. Which generates a report in temporary folder from the data found in the provided path and then creates a local Jetty server instance, serves generated report and opens it in the default browser
+3. Type "allure serve .\allure-results" command from project root directory. It generates a report in temporary folder from the data found in the provided path and then creates a local Jetty server instance, serves generated report and opens it in the default browser
